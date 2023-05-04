@@ -1,0 +1,77 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #ffff;
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    background: #ff4800;
+  }
+
+  .nome {
+    margin-left: 10px;
+    width: 280px;
+    height: 50px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .logo {
+    width: 52px;
+    height: 40px;
+    margin-right: 1062px;
+}
+
+.menu {
+    width: 80px;
+    display: flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-right: 80px;
+
+}
+
+.texto  {
+    width: 30px;
+    height: 10px;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+p {
+    font-size: 20px;
+    align-items: center;
+    margin-left: 430px;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+
+h3 {
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container img {
+        width: 395px;
+        height: 205px;
+        padding: 10px;
+        border-radius: 17px;
+        display: flex;
+}
+
+.formulário {
+
+}
+    
+
