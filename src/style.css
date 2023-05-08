@@ -1,0 +1,92 @@
+h4 {
+  color: white;
+  text-decoration-color: aliceblue;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+:placeholder-shown {
+  background: #f2f2f2;
+  font-size: x-large;
+  text-align: center;
+  padding: 14px;
+  top: 12%;
+  bottom: 0;
+  left: 60px;
+  right: 0;
+  margin: center;
+  width: 60%;
+  height: 6%;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  border-radius: 30px;
+  position: relative;
+}
+
+input {
+  background: #f2f2f2;
+  font-size: x-large;
+  text-align: center;
+  padding: 14px;
+  top: 12%;
+  bottom: 0;
+  left: 60px;
+  right: 0;
+  margin: center;
+  width: 60%;
+  height: 6%;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  border-radius: 30px;
+  position: relative;
+}
+
+.credit-card {
+  align-items: center;
+  justify-content: center;
+  position: center;
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  background-color: rgb(16, 2, 56);
+  overflow: hidden;
+}
+
+#message {
+  position: sticky;
+  background-color: #2471a3;
+  color: white;
+  padding: 18px;
+  width: 364px;
+  border-radius: 6px;
+  margin-top: -30%;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+button {
+  display: box;
+  margin: -9% 32% 8%;
+  color: rgb(16, 2, 56);
+  padding: 8px 16px;
+  background-color: rgb(16, 2, 56);
+  border-radius: 30px;
+  cursor: pointer;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(4, 97, 33);
+  border-radius: 30px;
+  border-color: none;
+}
+
+a {
+  float: right;
+}

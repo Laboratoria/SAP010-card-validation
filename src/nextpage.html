@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Validar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="credit-card">
+    <div class="card-number">
+    </div>
+
+    <h4>Insira os Números do Seu Cartão</h4>
+    <input type="text" maxlength="16" id="card-number" placeholder="0000 0000 0000 0000" pattern="[0-9]+"
+      autocomplete="off" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+  </div>
+
+  <button id="btn">Validar</button>
+  <p id="message"></p>
+  <a href="index.html">Home Page</a>
+  <script type="module" src="script.js"></script>
+  <script type="module" src="validator.js"></script>
+</body>
+
+</html>

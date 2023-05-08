@@ -1,17 +1,15 @@
 # Cartão de Crédito Válido
-
+ " Card Validator" (by Juliana Matos - SAP010)
 ## Índice
 
 * [1. Introdução](#1-Introdução)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Considerações gerais](#3-considerações-gerais)
-* [4. Marco: Critérios de Aceitação Mínimos do Projeto](#4-marco-critérios-de-aceitação-mínimos-do-projeto)
-* [5. Marco Opcional: Mostrar a franquia do cartão](#5-marco-opcional-mostrar-a-franquia-do-cartão)
-* [6. Considerações técnicas](#6-considerações-técnicas)
-* [7. Objetivos de aprendizagem](#7-objetivos-de-aprendizagem)
-* [8. Guias, dicas e leituras
+* [4. Considerações técnicas](#6-considerações-técnicas)
+* [5. Objetivos de aprendizagem](#7-objetivos-de-aprendizagem)
+* [6. Guias, dicas e leituras
   complementares](#8-guias-dicas-e-leituras-complementares)
-* [9. Para considerar o feedback do projeto](#9-para-considerar-o-feedback-do-projeto)
+* [7. Feedback do projeto](#9-para-considerar-o-feedback-do-projeto)
 
 ***
 
@@ -33,93 +31,26 @@ Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
 ## 2. Resumo do projeto
 
-Neste projeto, você precisará criar um aplicativo da Web que permita ao usuário
-validar o número de um cartão de crédito.  Além disso, você precisará
-implementar a funcionalidade para ocultar todos os dígitos de um cartão, exceto
-os quatro últimos.
+Este projeto foi criado  um aplicativo ao qual permite que o usuário valide um  número de um cartão de crédito.  
+Neste projeto foi implementado a funcionalidade de ocultar os 4 últimos dígitos do cartão.
+Para a página inicial foi introduzido um vídeo de apresentação simples.
 
-O tema é livre. Você deve pensar em quais situações da vida real um cartão de
-crédito precisaria ser validado e em como deveria ser a experiência do usuário
-(telas, explicações, mensagens, cores, marca?) etc.
+![image](https://user-images.githubusercontent.com/106282913/236814139-9bff03fe-29da-4933-bdfb-00802ff9ce0d.png)
 
-Como continuação do projeto de pré-admissão, você retrabalhará os fundamentos
-do JavaScript, incluindo conceitos como variáveis, condicionais e funções,
-bem como eventos e manipulação básica de DOM, fundamentos HTML e CSS.
-Ao desenvolver este projeto, você também se familiarizará com novos conceitos.
 
-### Os objetivos gerais deste projeto são os seguintes
+![image](https://user-images.githubusercontent.com/106282913/236815400-e798f4d8-74b8-4b00-8f80-7a80d0f4a4ca.png)
 
-* Trabalhar com base em um boilerplate, a estrutura básica de um projeto em diferentes
-  pastas (através de módulos em JS).
-* Conhecer as ferramentas de manutenção e melhoria do código (linters e testes
-  unitários).
-* Aprenda sobre objetos, estruturas, métodos e iteração (loops) em JavaScript
-* Implementar controle de versão com git (e a plataforma github)
+
 
 ## 3. Considerações gerais
 
-* Resolvemos este projeto individualmente. Recomendamos uma duração de 1-3 sprints.
-* Concentre-se em aprender e não apenas "concluir" o projeto.
-* Sugerimos que você não tente saber tudo antes de começar a codificar.
-  Não se preocupe muito agora com o que você _ainda_ não entende.
-  Você vai aprender.
+* Este projeto foi realizado individualmente conforme proposta do Bootcamp da empresa Laboratória. (SAP010) Com duração total de até 3 sprints.
 
-## 4. Marco: Critérios de Aceitação Mínimos do Projeto
+## 4. Considerações técnicas
 
-Esses são os requisitos que seu projeto deve atender para garantir que
-seu trabalho atenda aos objetivos principais.
+A lógica deste projeto foi implementada inteiramente em JavaScript. 
 
-**1. Uma interface que deve permitir ao usuário:**  
-
-* Inserir o número que desejamos validar. Use apenas caracteres
-  numéricos (dígitos) no cartão para validar [0-9].
-* Constatar se o resultado é válido ou não.
-* Ocultar todos os dígitos do número do cartão, excetuando os últimos 4
-  caracteres.
-* Não deve poder inserir um campo vazio.
-
-**2. Testes unitários dos métodos.**
-Os métodos `validator` (`isValid` e `maskify`) devem ser cobertos por testes unitários.
-
-**3. Código do seu projeto enviado para seu repositório e interface "implantada".**
-O código final deve estar um repositório no GitHub. A interface, ou página da web,
-deve ser "implantada" (acessível online publicamente) usando o GitHub Pages.
-
-**4. Um README contendo uma definição de produto.**
-No README, conte-nos como você pensou sobre os usuários e qual foi o seu
-processo para definir o produto final em nível de experiência e interface.
-Estas perguntas servem de guia:
-
-* Quem são os principais usuários do produto
-* Quais são os objetivos desses usuários em relação ao seu produto
-* Como você acha que o produto que você está criando está resolvendo seus
-  problemas
-
-Com esses requisitos atendidos, você pode agendar um feedback do projeto com
-um coach.
-
-## 5. Marco Opcional: Mostrar a franquia do cartão
-
-As partes opcionais permitem que você se aprofunde um pouco mais
-nos objetivos de aprendizagem do projeto. Tudo na vida tem prós e contras, decida
-sabiamente se você quiser gastar o tempo aprofundando/refinando ou aprendendo coisas
-novas no próximo projeto.
-
-No marco opcional você também pode validar se o número do
-cartão é válido, mostre a [franquia](https://es.wikipedia.org/wiki/N%C3%BAmero_de_programa_bancaria)
-do cartão (por exemplo, Visa, MasterCard, etc) usando estas [regras de validação](https://stevemorse.org/ssn/cc.html).
-Se você escrever um novo método para isso, terá que fazer testes de unidade.
-
-## 6. Considerações técnicas
-
-A lógica do projeto deve estar implementada inteiramente em JavaScript. Nesse
-projeto **NÃO** está permitido usar bibliotecas ou frameworks, só vanilla
-JavaScript.
-
-Para iniciar este projeto você terá que fazer um _fork_ e _clone_ desse
-repositório, que contém um _boilerplate_ com testes. Um _boilerplate_ é a
-estrutura básica de um projeto que serve como ponto de partida com arquivos
-iniciais e configuração básica de dependências e testes.
+s.
 
 Os testes unitários devem cobrir no mínimo de 70% dos _statements_, _functions_
 e _lines_, e um mínimo de 50% de _branches_. O _boilerplate_ já contem o setup e
@@ -364,7 +295,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 - [ ] **Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)**
 
-## 8. Guias, dicas e leituras complementares
+## 6. Guias, dicas e leituras complementares
 
 ### Primeiros passos
 
@@ -413,7 +344,7 @@ Desenvolvimento de front-end:
   e [como definir métodos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects#definindo_m%C3%A9todos##)
 * [Documentação do NPM](https://docs.npmjs.com/)
 
-## 9. Para considerar o feedback do projeto
+## 7. Feedback do projeto
 
 Em resumo, os critérios mínimos de aceitação do projeto para considerar o
 Project Feedback:
@@ -427,3 +358,50 @@ Project Feedback:
 * [ ] O código do seu projeto será entregue no GitHub.
 * [ ] A interface será "implantada" usando o GitHub Pages.
 * [ ] O README contém uma definição de produto.
+
+PS C:\Juliana\Laboratoria\SAP010-card-validation> npm test
+
+> card-validation@1.0.0 pretest
+> npm run eslint && npm run htmlhint
+
+
+> card-validation@1.0.0 eslint
+> eslint --ext .js src/ test/
+
+
+> card-validation@1.0.0 htmlhint
+> htmlhint src/*.html test/*.html
+
+
+Scanned 2 files, no errors found (16 ms).
+
+> card-validation@1.0.0 test
+> jest --verbose --coverage
+
+ PASS  test/validator.spec.js                                         
+  validator
+    √ debería ser un objeto (1 ms)                                    
+    validator.isValid                                                 
+      √ debería ser una función                                       
+      √ debería retornar true para "4083952015263" (1 ms)             
+      √ debería retornar true para "79927398713" (1 ms)               
+      √ debería retornar false para "1234567890" (1 ms)               
+    validator.maskify                                                 
+      √ debería ser una función (1 ms)                                
+      √ Debería retornar "############5616" para "4556364607935616" (1 ms)                                                                  
+      √ Debería retornar "1" para "1"
+      √ Debería retornar "######orld" para "helloworld"
+                                                                      
+---------|---------|----------|---------|---------|-------------------
+File     | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------|---------|----------|---------|---------|-------------------
+...files |     100 |      100 |     100 |     100 |   
+ ...r.js |     100 |      100 |     100 |     100 |   
+---------|---------|----------|---------|---------|-------------------
+Test Suites: 1 passed, 1 total
+Tests:       9 passed, 9 total
+Snapshots:   0 total
+Time:        2.085 s
+Ran all test suites.
+PS C:\Juliana\Laboratoria\SAP010-card-validation> 
+ *  History restored 
