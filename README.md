@@ -38,7 +38,7 @@ Para a página inicial foi introduzido um vídeo de apresentação simples.
 ![image](https://user-images.githubusercontent.com/106282913/236814139-9bff03fe-29da-4933-bdfb-00802ff9ce0d.png)
 
 
-![image](https://user-images.githubusercontent.com/106282913/236814323-418a0695-5a0d-4897-9653-b78318393981.png)
+![image](https://user-images.githubusercontent.com/106282913/236815400-e798f4d8-74b8-4b00-8f80-7a80d0f4a4ca.png)
 
 
 
