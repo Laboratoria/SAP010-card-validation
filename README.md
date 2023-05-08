@@ -35,6 +35,11 @@ Este projeto foi criado  um aplicativo ao qual permite que o usuário valide um 
 Neste projeto foi implementado a funcionalidade de ocultar os 4 últimos dígitos do cartão.
 Para a página inicial foi introduzido um vídeo de apresentação simples.
 
+![image](https://user-images.githubusercontent.com/106282913/236814139-9bff03fe-29da-4933-bdfb-00802ff9ce0d.png)
+
+
+![image](https://user-images.githubusercontent.com/106282913/236814323-418a0695-5a0d-4897-9653-b78318393981.png)
+
 
 
 ## 3. Considerações gerais
