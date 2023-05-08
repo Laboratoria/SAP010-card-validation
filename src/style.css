@@ -36,7 +36,6 @@ html {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     margin-right: 80px;
-
 }
 
 .texto  {
@@ -44,16 +43,14 @@ html {
     height: 10px;
     font-size: 18px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    
 }
 
 p {
     font-size: 20px;
     align-items: center;
-    margin-left: 430px;
+    margin-left: 390px;
     display: flex;
     font-family: 'Courier New', Courier, monospace;
-    
     
 }
 
@@ -62,16 +59,23 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+form p {
+    width: 50px;
+    height: 10px;
+    padding-left: 200px;
+    align-items: center;
+    position:absolute;
+    margin-left: 50px;
+    display: flex;
+}
+
 .container img {
-        width: 395px;
-        height: 205px;
-        padding: 10px;
-        border-radius: 17px;
-        display: flex;
-}
-
-.formulário {
+    width: 395px;
+    height: 205px;
+    border-radius: 17px;
+    display:flex;
 
 }
-    
+
+
 

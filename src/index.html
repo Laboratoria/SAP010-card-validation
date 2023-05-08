@@ -31,19 +31,25 @@
           O objetivo desse sistema é atuar como uma camada de proteção durante o processamento de uma compra ou transação financeira, por exemplo.<br>
            Desse modo, são inseridos processos para verificar se a pessoa que está realizando aquela ação está autorizada a realizá-la.</h3></div>
   
-    <main>
-      <div class="container">
-        <img src="imagens/cartão-de-credito.png" alt="cartão de crédito">
-      </div>
-       </main>
-
-       
-
-    <form class="action">
+    <!--Formulário para o cliente validar seu cartão de crédito-->
+    <form>
       <p>Preencha o formulário e valide seu cartão de crédito.</p>
+        Nome no cartão: <input type="text" id="nomeNoCartão"><br><br>
+        Validade:  <input type="month" id="dValid"><br><br>
+        Número do Cartão*: <input type="text" id="numDigitado"><br><br>
+        CVV: <input type="number" id="cvv"><br><br>
+        <button><input type="button" id="botao" value="Validar"></button> 
+        <p id="outCard"></p>
 
-    </form>
-    </div>
+        </form> 
+          </div>
+
+          <main>
+            <div class="container">
+              <img src="imagens/cartão-de-credito.png" alt="cartão de crédito">
+            </div>
+             </main>
+
     <footer class="rodapé">
       <p>OPEN CARD-TODOS OS DIREITOS RESERVADOS 2023</p>
      </footer>
