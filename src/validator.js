@@ -30,7 +30,7 @@ const validator = {
 
   maskify: function (creditCardNumber){
   
-    return creditCardNumber.replace(/.(?=.{4})/g, "#")
+    return creditCardNumber.replace(/.(?=.{4})/g,"#")
      
   }
 
