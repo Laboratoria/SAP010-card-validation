@@ -2,13 +2,65 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Validação de cartão</title>
     <link rel="stylesheet" href="style.css" />
+    
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header class="header">
+     <p class="nome">OPEN CARD</p>
+       <img class="logo" src="imagens/cadeado.png" alt="cadeado">
+        
+      <nav>
+        <ul class="menu">
+          <li class="item"><a href="#" class="item-link">SOBRE NÓS</a></li>
+          <li class="item"><a href="#" class="item-link">CONTATO</a></li>
+          <li class="item"><a href="#"class="item-link">CONFIGURAÇÕES</a></li>
+          <li class="item"><a href="#"class="item-link">ENTRAR</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="subtitulo">
+      <p>Sistema Antifraude para e-commerce</p>
+    </div>
+    
+
+    <section>
+      <h3>Um sistema antifraude é um conjunto de soluções, ferramentas e aplicações que têm como foco reduzir a ocorrência de transações fraudulentas.<br>
+        É comum que esse sistema abarque aplicações de detecção, prevenção e análise das fraudes.<br>
+         O objetivo desse sistema é atuar como uma camada de proteção durante o processamento de uma compra ou transação financeira, por exemplo.<br>
+          Desse modo, são inseridos processos para verificar se a pessoa que está realizando aquela ação está autorizada a realizá-la.
+        </h3><br>
+    </section>
+
+    <!--Formulário para o cliente validar seu cartão de crédito-->
+    <form>
+      <p>Preencha o formulário e analise o seu cartão de crédito.</p><br>
+        Nome no cartão: <input type="text" id="nomeNoCartão"><br><br>
+        Validade:  <input type="month" id="dValid"><br><br>
+        Número do Cartão*: <input type="text" id="numDigitado"><br><br>
+        CVV: <input type="number" id="cvv"><br><br>
+
+        <button>
+          <input type="button" id="botao" value="Validar">
+          </button>
+           <p id="outCard"></p>
+       
+         
+
+        </form> 
+
+      <main>
+        <div class="container">
+          <img src="imagens/cartão-de-credito.png" alt="cartão de credito"> 
+        </div>
+      </main>
+ 
+    <footer>
+      <p>TODOS OS DIREITOS RESERVADOS 2023</p>
+     </footer>
     <script src="index.js" type="module"></script>
+
   </body>
 </html>
